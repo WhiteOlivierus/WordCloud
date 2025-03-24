@@ -14,8 +14,6 @@ The WordCloud Service is a simple C# library for generating word cloud data from
 - **Case Sensitivity Options**:  
   - By default, the service is case-insensitive (e.g., "Word" and "word" are combined).
   - Supports passing a custom `StringComparer` to enforce case-sensitive counting.
-- **Input Validation**:  
-  - Throws an `ArgumentNullException` if the input is null.
 
 ## How to Use
 
